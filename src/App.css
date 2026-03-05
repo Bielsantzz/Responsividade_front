@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    --bg: #5452bb; /*roxo clarinho*/
+    --bg2: #6c62f5; /*roxo mais ou menos claro */
+    --primary: #c676eb;
+    --secundary: #c060e6;
+    --accent: #8a43e7;
+
+    --text: #1f1f1f; /*mais ou menos preto*/
+    --focus: #a5082a; /*vermelho um pouco claro*/
+
+    --white: #fff;
+    --black: #000;
+
+    --border: 1px solid #c043a1;
+
+    font-size: 16px; /*default*/
+
+}
+
+*{
+    box-sizing: border-box; /*nada vai estourar entendeu ?tudo vai estar
+    dentro do limite*/
+}
+
+
+
+body{
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  margin: 0;
+  color: var(--text);
+
+  color: white;
+ 
+  background-color: #9788ec;
+}
+
+  
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+h1,h2, h3{
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 200;
+  font-style: normal; 
+}
+
+
+/*focus garantido*/
+
+a:focus-visible,
+button:focus-visible{
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;;
+  border-radius: 10px;
+}
+
+.container{
+  width: min(1100px, 92%);
+  margin: 0 auto;
+}
+
+main{
+  padding: 1rem 0.5rem;
+}
