@@ -1,4 +1,4 @@
-//import "./banner.css"
+import "./banner.css"
 
 export default function Banner() {
     return (
@@ -21,7 +21,7 @@ export default function Banner() {
                     </hgroup>
                     
                     <figure className="cardzinho-img">
-                        <img src="" alt="personagem"/>
+                        <img src="https://yt3.googleusercontent.com/ytc/AIdro_lggDfXjGm8cAuDrLFUhu-q8-z4bL7jbCjo4pG3C7lDpA=s900-c-k-c0x00ffffff-no-rj" alt="personagem"/>
                     </figure>
                 </div>
             </article>

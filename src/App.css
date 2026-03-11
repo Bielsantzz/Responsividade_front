@@ -3,9 +3,9 @@
 :root{
     --bg: #5452bb; /*roxo clarinho*/
     --bg2: #6c62f5; /*roxo mais ou menos claro */
-    --primary: #c676eb;
-    --secundary: #c060e6;
-    --accent: #8a43e7;
+    --primary: #642381;
+    --secundary: #3cff00;
+    --accent: #db0a0a;
 
     --text: #1f1f1f; /*mais ou menos preto*/
     --focus: #a5082a; /*vermelho um pouco claro*/
@@ -13,7 +13,8 @@
     --white: #fff;
     --black: #000;
 
-    --border: 1px solid #c043a1;
+    --border: 1px solid #00e1ff;
+    --shadow: 0 3px 4px  #681461;
 
     font-size: 16px; /*default*/
 
@@ -36,7 +37,7 @@ body{
 
   color: white;
  
-  background-color: #9788ec;
+  background-color: #1b124b;
 }
 
   
@@ -70,4 +71,26 @@ button:focus-visible{
 
 main{
   padding: 1rem 0.5rem;
+}
+
+
+.btn{
+  display: inline-block;
+  padding: 0.75 1rem;
+  border-radius: 0.7rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+  border: var(--border);
+  box-shadow: var(--shadow);
+}
+
+.btn-primary{
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  color: var(--white);
+  text-decoration: none;
+}
+
+.btn-primary:hover{
+  text-decoration: underline;
+  background: linear-gradient(135deg, var(--accent),var(--primary));
 }
