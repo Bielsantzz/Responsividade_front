@@ -1,0 +1,71 @@
+.features{
+    margin: 1rem;
+}
+
+.features h2{
+    font-size: 2.3rem;
+
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.card{
+    background: var(--bg);
+    border:var(--border);
+    border-radius: 1.5rem;
+    box-shadow: var(--shadow);
+    padding: 0.8rem 1rem;
+
+    /*display: flex;
+    flex-direction: column;
+    align-items: center;*/
+}
+
+
+.card h3{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0.8rem 0;
+}
+
+;card p {
+    margin: 0;
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+
+.card figure{
+    display: flex;
+    justify-content: center;
+}
+
+.card figure img{
+    width: 100%;
+}
+
+@media (min-width: 768px){/*tablet*/
+
+    .grid{
+        grid-template-columns: repeat(2,1fr);
+
+}
+}
+
+
+@media (min-width: 1024px){ /*notebook pequeno*/
+
+    .grid{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media (min-width: 1440px){/*notebook tela média*/
+
+    .grid{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
